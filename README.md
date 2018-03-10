@@ -1,1 +1,3 @@
-Cryptocurrency React App exercise.
+##Cryptocurrency 
+###React App exercise
+
