@@ -6,6 +6,7 @@ import Tickers from './Tickers';
 import Cryptocurrency from './Cryptocurrency';
 
 class App extends React.Component {
+
     render() {
         return (
             <div className='App'>
