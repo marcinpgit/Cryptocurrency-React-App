@@ -14,7 +14,6 @@ class App extends React.Component {
                     <h2>Cryptocurrency Ticker</h2>
                 </div>
                 <Tickers/>
-                <Cryptocurrency/>
             </div>
         );
     }
