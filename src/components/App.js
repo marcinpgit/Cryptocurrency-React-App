@@ -1,16 +1,20 @@
 import React from 'react';
 
+import './App.css';
+
 import Tickers from './Tickers';
 import Cryptocurrency from './Cryptocurrency';
 
 class App extends React.Component {
     render() {
         return (
-            <React.Fragment>
-                <h1>cryptocurrency app</h1>
+            <div className='App'>
+                <div className='App-header'>
+                    <h2>Cryptocurrency Ticker</h2>
+                </div>
                 <Tickers/>
                 <Cryptocurrency/>
-            </React.Fragment>
+            </div>
         );
     }
 }
