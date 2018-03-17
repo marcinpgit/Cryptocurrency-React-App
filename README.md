@@ -1,4 +1,5 @@
-## Cryptocurrency 
+## Cryptocurrency App
+
 
 ### React App exercise
 

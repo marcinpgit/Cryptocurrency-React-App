@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 import './Tickers.css'
 
@@ -39,6 +40,15 @@ class Tickers extends React.Component {
                 }
             ]
         }
+    }
+
+    componentDidMount() {
+        this.fetchCryptocurrencyData();
+        this.interval = setInterval(() => this.fetchCryptocurrencyData(), 10 * 1000);
+    }
+
+    fetchCryptocurrencyData() {
+
     }
 
     render() {
