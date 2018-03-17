@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 
 import Tickers from './Tickers';
-import Cryptocurrency from './Cryptocurrency';
 
 class App extends React.Component {
 
