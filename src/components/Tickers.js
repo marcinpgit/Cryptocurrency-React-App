@@ -58,7 +58,6 @@ class Tickers extends React.Component {
     }
 
     render() {
-
         const tickers = this.state.data.map(currency =>
             <Cryptocurrency data={currency} key={currency.id}/>);
 
